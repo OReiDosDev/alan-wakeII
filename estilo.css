@@ -72,3 +72,37 @@ a:hover {
   color: #000;
   transition: 0.3s;
 }
+.btn-cta {
+    /* Cores e Fundo */
+    background-color: #00ff88; /* Verde Neon */
+    color: #000000;           /* Texto preto para contraste máximo */
+    
+    /* Forma e Espaçamento */
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 50px;      /* Botão bem arredondado (estilo premium) */
+    
+    /* Texto */
+    text-decoration: none;
+    font-weight: 800;         /* Texto bem grosso/negrito */
+    font-size: 1rem;
+    letter-spacing: 1px;      /* Espaçamento entre letras para ficar moderno */
+    
+    /* Sombras e Efeitos */
+    transition: all 0.3s ease; /* Faz qualquer mudança ser suave */
+    box-shadow: 0 10px 20px rgba(0, 255, 136, 0.2); /* Sombra neon suave */
+    border: none;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.btn-cta:hover {
+    transform: translateY(-3px); /* O botão "sobe" levemente */
+    box-shadow: 0 15px 30px rgba(0, 255, 136, 0.5); /* A sombra brilha mais */
+    background-color: #05ff91;   /* Muda levemente o tom do verde */
+}
+
+/* Efeito ao clicar */
+.btn-cta:active {
+    transform: translateY(1px);  /* Dá a sensação de clique real */
+}
